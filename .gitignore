@@ -1,12 +1,3 @@
-/shared
-/app/www/wp/
-/app/www/wp-local-config.php
-/app/www/content/upgrade/
-/app/www/content/uploads
-/app/www/content/cache/
-/app/www/content/w3tc-config/
-/app/www/searchreplacedb2.php
-/vendor
 .sass-cache
 .DS_Store
 
