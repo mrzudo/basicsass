@@ -1,5 +1,13 @@
-@import "compass";
+@import "compass";        //compass geimporteerd//
 
 body {
- 
+	background-color: white;
+
+}
+
+article {
+	background-color: red;
+	h1{
+		color: green;
+	}
 }
