@@ -1,6 +1,6 @@
 # Require any additional compass plugins here.
 # require "susy"
-# require "breakpoint"
+require "breakpoint"
 # Set the images directory relative to your http_path or change
 # the location of the images themselves using http_images_path:
 
@@ -13,7 +13,7 @@ sass_dir = "sass"
 images_dir = "img"
 javascripts_dir = "javascripts"
 #project_type = :stand_alone
-output_style = :compressed
+output_style = :nested
 line_comments = false
 
 
