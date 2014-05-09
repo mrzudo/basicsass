@@ -52,25 +52,102 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-body {
-  background-color: white; }
+html {
+  height: 100%; }
 
-.wrapper {
-  width: 100%;
+body {
+  font-size: 100%;
+  height: 100%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+#wrapper {
+  max-width: 100%;
   height: 100%;
   position: relative; }
 
-article {
-  background-color: #CFCFCF;
+.l-layout-1 {
   max-width: 100%;
-  min-height: 100em;
-  padding: 2em; }
-  @media (min-width: 750px) {
-    article {
-      background-color: green; } }
-  article p {
-    max-width: 30em;
-    margin: 0 auto; }
+  height: 61%;
+  padding: 2.50%;
+  margin-bottom: 4.55%;
+  overflow: hidden; }
 
-h1 {
+.big-img {
+  width: 62.1%;
+  height: 100%;
+  background-color: blue;
+  margin-left: 3.25%;
+  float: left; }
+
+.small-img {
+  width: 40%;
+  height: 20px;
+  background-color: green;
   margin: 0 auto; }
+
+.l-layout-2 {
+  max-width: 100%;
+  height: 66%;
+  background-color: gray;
+  margin-bottom: 2.14%; }
+
+.l-layout-3 {
+  max-width: 100%;
+  height: 71%; }
+
+.l-layout-4 {
+  max-width: 100%; }
+
+.l-layout-5 {
+  max-width: 100%; }
+
+.l-layout-6 {
+  max-width: 100%; }
+
+.l-layout-7 {
+  max-width: 100%; }
+
+.l-layout-8 {
+  max-width: 100%; }
+
+.l-layout-9 {
+  max-width: 100%; }
+
+.l-header-class {
+  width: 100%;
+  height: 96.6%;
+  display: block;
+  margin-bottom: 2.14%;
+  overflow: hidden;
+  padding-bottom: 5%; }
+
+.l-3-columns {
+  margin: 0 auto;
+  font-size: 1.5em; }
+
+.column {
+  width: 30%;
+  height: 98%;
+  float: left;
+  background-color: gray; }
+
+.column:first-of-type {
+  margin-left: 1.8%; }
+
+.column + .column {
+  margin-left: 3.5%; }
+
+.header-class {
+  background-color: red;
+  color: white; }
+  .header-class h1 {
+    font-size: 3em;
+    width: 58%;
+    padding-left: 4.8%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-weight: bold; }
+
+article {
+  background-color: white; }

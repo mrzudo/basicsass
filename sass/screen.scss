@@ -2,34 +2,33 @@
 @import "compass/reset";	//reset browser style
 @import "breakpoint";		//screen sizes	
 
+@import "base/base";	//importeer basis
+
+@import "layouts/l-wrapper";	//import layouts
+@import "layouts/l-layout-1";
+@import "layouts/l-layout-2";
+@import "layouts/l-layout-3";
+@import "layouts/l-layout-4";
+@import "layouts/l-layout-5";
+@import "layouts/l-layout-6";
+@import "layouts/l-layout-7";
+@import "layouts/l-layout-8";
+@import "layouts/l-layout-9";
+@import "layouts/l-header-class";	
+@import "layouts/l-3-columns";
+
+@import "modules/header-class";
+
+
 $break-tablet: 750px;
 
-* {
-	margin:0;
-	padding:0;
-  	@include box-sizing(border-box);
-}
 
-body {
-	background-color: white;
-}
-
-.wrapper{
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
 
 article {
-	background-color: #CFCFCF;
+	background-color: white;
 	@include breakpoint($break-tablet) { 
-		background-color: green;
 	}
-	max-width: 100%;
-	min-height: 100em;
-	padding: 2em;
-	p {
-		max-width: 30em;
-		margin: 0 auto;
-	}
+
 }
+
+	
